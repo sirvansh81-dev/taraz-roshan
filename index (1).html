@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="fa">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#173b36" name="theme-color"/>
+<meta content="مقایسه مستند نرم‌افزارهای حسابداری آهن و فولاد، قیمت‌های تاریخ‌دار، معیارهای انبار و فروش وزنی و راهنمای انتخاب برای کسب‌وکار شما." name="description"/>
+<meta content="index, follow, max-image-preview:large" name="robots"/>
+<link href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9InRpdGxlIj4KICA8dGl0bGUgaWQ9InRpdGxlIj7Zhti02KfZhiDYqtix2KfYsiDYsdmI2LTZhjwvdGl0bGU+CiAgPHJlY3QgeD0iMiIgeT0iMiIgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIiByeD0iMTkiIGZpbGw9IiMxNzNiMzYiLz4KICA8cGF0aCBkPSJNMTcgMjJoMzBNMjIgMjJ2MjJtMjAtMjJ2MjJNMTcgNDRoMzAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2Y1ZWVlMSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8cGF0aCBkPSJNMzIgMTR2MzQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2NmOWI1NCIgc3Ryb2tlLXdpZHRoPSIzLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjMyIiBjeT0iMTQiIHI9IjQuMiIgZmlsbD0iI2NmOWI1NCIvPgogIDxwYXRoIGQ9Im0yMCA0OSAxMi02IDEyIDYiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2NmOWI1NCIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==" rel="icon" type="image/svg+xml"/>
+<style>
+
+:root {
+  color-scheme: light;
+  --ink: #203532;
+  --ink-2: #2d4540;
+  --muted: #61716d;
+  --soft-muted: #7a8782;
+  --forest: #173b36;
+  --forest-deep: #102f2b;
+  --forest-quiet: #eaf0eb;
+  --gold: #bd8847;
+  --gold-soft: #f4ebdc;
+  --clay: #a8604c;
+  --cream: #f8f6f0;
+  --paper: #fffefa;
+  --line: #e6e4dc;
+  --line-dark: #d8d9d0;
+  --green-wash: #eef4ef;
+  --red-wash: #f9edeb;
+  --shadow: 0 16px 42px rgba(28, 52, 45, .075);
+  --shadow-soft: 0 8px 24px rgba(28, 52, 45, .055);
+  --radius: 22px;
+  --radius-sm: 14px;
+  --content: 1200px;
+  --font: "Vazirmatn", "IRANSansX", Tahoma, Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 104px; }
+body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.9;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+img, svg { max-width: 100%; }
+img { height: auto; }
+a { color: var(--forest); text-decoration-thickness: 1px; text-underline-offset: 4px; }
+a:hover { color: #875e2f; }
+button, input, select, textarea { font: inherit; }
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; opacity: .58; }
+:focus-visible { outline: 3px solid #cc984e; outline-offset: 3px; }
+[hidden] { display: none !important; }
+::selection { background: #dfc493; color: #102f2b; }
+.container { width: min(calc(100% - 48px), var(--content)); margin-inline: auto; }
+.narrow { width: min(calc(100% - 48px), 820px); margin-inline: auto; }
+.visually-hidden { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+.skip-link { position: absolute; inset-inline-start: 16px; top: -70px; z-index: 200; padding: 10px 16px; border-radius: 10px; background: var(--forest); color: white; text-decoration: none; }
+.skip-link:focus { top: 12px; color: white; }
+
+/* Header and navigation */
+.site-header { position: sticky; top: 0; z-index: 50; background: rgba(255, 254, 250, .96); border-bottom: 1px solid rgba(221, 222, 213, .82); backdrop-filter: blur(12px); }
+.header-inner { min-height: 78px; display: flex; align-items: center; justify-content: space-between; gap: 28px; }
+.brand { display: inline-flex; align-items: center; gap: 11px; color: var(--ink); text-decoration: none; flex: 0 0 auto; }
+.brand:hover { color: var(--ink); }
+.brand img { display: block; width: 43px; height: 43px; }
+.brand-name { display: block; font-size: 18px; line-height: 1.2; font-weight: 850; letter-spacing: -.35px; }
+.brand-tagline { display: block; margin-top: 4px; color: var(--muted); font-size: 11px; line-height: 1.2; font-weight: 500; }
+.primary-nav { display: flex; align-items: center; gap: clamp(15px, 2.2vw, 30px); }
+.primary-nav a { color: #3c504b; font-size: 14px; text-decoration: none; font-weight: 650; white-space: nowrap; }
+.primary-nav a:hover, .primary-nav a[aria-current="page"] { color: var(--forest); }
+.primary-nav a[aria-current="page"] { text-decoration: underline; text-decoration-color: var(--gold); text-decoration-thickness: 2px; text-underline-offset: 8px; }
+.header-cta { flex: 0 0 auto; }
+.menu-toggle { display: none; width: 46px; height: 44px; border: 1px solid var(--line-dark); border-radius: 12px; background: var(--paper); color: var(--forest); align-items: center; justify-content: center; }
+.menu-toggle svg { width: 21px; height: 21px; }
+
+/* Buttons and shared components */
+.button { display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-height: 48px; padding: 11px 19px; border: 1px solid transparent; border-radius: 13px; font-size: 14px; line-height: 1.4; font-weight: 750; text-decoration: none; transition: background-color .18s ease, border-color .18s ease, color .18s ease, transform .18s ease; }
+.button:hover { transform: translateY(-1px); text-decoration: none; }
+.button-primary { background: var(--forest); color: #fffdf7; box-shadow: 0 6px 14px rgba(23, 59, 54, .14); }
+.button-primary:hover { background: var(--forest-deep); color: #fff; }
+.button-secondary { background: transparent; border-color: #aab9af; color: var(--forest); }
+.button-secondary:hover { background: #f2f4ee; color: var(--forest-deep); border-color: var(--forest); }
+.button-light { background: #fffdf7; color: var(--forest); }
+.button-light:hover { background: #f1eadc; color: var(--forest); }
+.button-small { min-height: 41px; padding: 8px 14px; font-size: 13px; }
+.arrow-link { display: inline-flex; align-items: center; gap: 8px; color: var(--forest); text-decoration: none; font-size: 14px; font-weight: 760; }
+.arrow-link:hover { text-decoration: underline; }
+.eyebrow { display: inline-flex; align-items: center; gap: 8px; margin: 0 0 15px; color: #836034; font-size: 13px; font-weight: 800; letter-spacing: .05px; }
+.eyebrow::before { content: ""; width: 23px; height: 2px; border-radius: 4px; background: var(--gold); }
+.kicker { display: inline-flex; align-items: center; gap: 7px; padding: 6px 11px; border: 1px solid #dce3da; border-radius: 999px; background: rgba(255,255,255,.68); color: #36534a; font-size: 12px; font-weight: 700; }
+.kicker-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: #5a8a6d; }
+.section { padding-block: 82px; }
+.section-soft { background: var(--cream); }
+.section-deep { background: var(--forest-deep); color: #f6f5ed; }
+.section-head { display: flex; align-items: end; justify-content: space-between; gap: 26px; margin-bottom: 31px; }
+.section-head h2 { margin: 0; max-width: 660px; font-size: clamp(26px, 3vw, 37px); line-height: 1.35; letter-spacing: -.65px; }
+.section-head p { max-width: 540px; margin: 11px 0 0; color: var(--muted); font-size: 15px; }
+.section-deep .section-head p { color: #c9d5ce; }
+.section-intro { max-width: 750px; margin: 12px 0 34px; color: var(--muted); }
+.text-muted { color: var(--muted); }
+.small-note { color: var(--muted); font-size: 13px; line-height: 1.8; }
+.notice { display: flex; align-items: flex-start; gap: 12px; padding: 15px 17px; border: 1px solid #e6dbc6; border-radius: 14px; background: #faf6ed; color: #635335; font-size: 14px; }
+.notice strong { color: #463c2d; }
+.notice-icon { flex: 0 0 24px; width: 24px; height: 24px; display: inline-grid; place-items: center; border-radius: 50%; color: #8a642e; background: #f2e4c9; font-weight: 800; font-size: 13px; line-height: 1; }
+.note-neutral { background: #f1f4ef; border-color: #dce4dc; color: #3c5148; }
+.note-neutral .notice-icon { color: #345e4d; background: #dfeae1; }
+.note-warning { background: #fbf1e4; border-color: #eddbbd; color: #674e2c; }
+
+/* Breadcrumbs */
+.breadcrumbs { display: flex; flex-wrap: wrap; align-items: center; gap: 9px; margin: 18px 0 20px; color: #77827c; font-size: 12px; }
+.breadcrumbs a { color: #65736d; text-decoration: none; }
+.breadcrumbs a:hover { text-decoration: underline; }
+.breadcrumb-separator { color: #b4b7ad; }
+
+/* Homepage hero */
+.hero { position: relative; padding: 48px 0 73px; overflow: hidden; background: var(--cream); }
+.hero::before { content: ""; position: absolute; top: -180px; inset-inline-start: -150px; width: 390px; height: 390px; border: 1px solid rgba(95, 123, 111, .14); border-radius: 50%; box-shadow: 0 0 0 36px rgba(95, 123, 111, .035), 0 0 0 72px rgba(95, 123, 111, .025); pointer-events: none; }
+.hero-grid { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) minmax(360px, .94fr); align-items: center; gap: clamp(30px, 6vw, 78px); }
+.hero-copy { position: relative; z-index: 1; }
+.hero h1 { max-width: 650px; margin: 17px 0 20px; color: var(--ink); font-size: clamp(38px, 5vw, 58px); line-height: 1.35; letter-spacing: -1.25px; font-weight: 850; }
+.hero h1 em { position: relative; color: var(--forest); font-style: normal; white-space: nowrap; }
+.hero h1 em::after { content: ""; position: absolute; inset-inline: 2px; bottom: -4px; height: 8px; z-index: -1; border-radius: 100% 70% 40% 90%; background: #e4cfaa; opacity: .82; }
+.hero-lede { max-width: 570px; margin: 0; color: #556762; font-size: 17px; line-height: 2.05; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.hero-meta { display: flex; flex-wrap: wrap; gap: 17px; margin-top: 24px; color: #64716a; font-size: 12px; }
+.hero-meta span { display: inline-flex; align-items: center; gap: 7px; }
+.hero-meta span::before { content: ""; display: block; width: 5px; height: 5px; border-radius: 50%; background: var(--gold); }
+.hero-art { position: relative; max-width: 620px; margin-inline-start: auto; }
+.hero-art img { display: block; width: 100%; border-radius: 35px; box-shadow: 0 24px 60px rgba(41, 65, 56, .12); }
+.hero-caption { position: absolute; inset-inline-start: 6%; bottom: -17px; padding: 8px 13px; border: 1px solid #e4e1d7; border-radius: 10px; background: #fffefa; color: #66736d; font-size: 11px; box-shadow: var(--shadow-soft); }
+
+/* Homepage content */
+.industry-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; }
+.industry-card { min-height: 178px; display: flex; flex-direction: column; justify-content: space-between; padding: 21px; border: 1px solid var(--line); border-radius: 18px; background: var(--paper); color: var(--ink); text-decoration: none; box-shadow: 0 4px 12px rgba(30,53,47,.025); transition: border-color .18s ease, box-shadow .18s ease, transform .18s ease; }
+.industry-card:hover { color: var(--ink); border-color: #bcc9bf; box-shadow: var(--shadow-soft); transform: translateY(-2px); }
+.industry-card.active { border-color: #9eaf9f; background: #f5f7f2; }
+.industry-card-icon { width: 43px; height: 43px; display: grid; place-items: center; border-radius: 13px; background: var(--forest-quiet); color: var(--forest); }
+.industry-card-icon svg { width: 22px; height: 22px; }
+.industry-card h3 { margin: 16px 0 2px; font-size: 16px; line-height: 1.55; }
+.industry-card p { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.7; }
+.card-status { display: inline-flex; align-self: flex-start; margin-top: 12px; padding: 4px 9px; border-radius: 999px; background: #e8efe7; color: #345b45; font-size: 11px; font-weight: 750; }
+.card-status.future { background: #f3efe6; color: #746348; }
+.product-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.product-card { display: flex; flex-direction: column; min-height: 100%; padding: 22px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--paper); box-shadow: 0 5px 16px rgba(30,53,47,.035); }
+.product-card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+.product-mark { width: 48px; height: 48px; display: grid; place-items: center; border-radius: 15px; background: var(--forest-quiet); color: var(--forest); font-weight: 850; font-size: 19px; }
+.product-vendor { color: #7b847f; font-size: 11px; }
+.product-card h3 { margin: 15px 0 7px; font-size: 18px; line-height: 1.55; }
+.product-card h3 a { color: var(--ink); text-decoration: none; }
+.product-card h3 a:hover { color: #7c5b31; }
+.product-card p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.85; }
+.product-card .price-line { margin-top: 14px; padding-top: 13px; border-top: 1px solid #eeeae0; color: #495b53; font-size: 12px; }
+.product-card .price-line strong { color: var(--forest); }
+.product-card .card-actions { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: auto; padding-top: 17px; }
+.product-card .card-actions a { font-size: 12px; }
+.badge { display: inline-flex; align-items: center; gap: 6px; padding: 5px 9px; border: 1px solid #dce5dd; border-radius: 999px; background: #f3f7f2; color: #365847; font-size: 11px; line-height: 1.4; font-weight: 730; }
+.badge-dot { width: 6px; height: 6px; border-radius: 50%; background: #5a8a6d; }
+.compare-promo { display: grid; grid-template-columns: 1.15fr .85fr; align-items: center; gap: 35px; padding: 36px; border-radius: 26px; background: var(--forest); color: #fffdf7; overflow: hidden; }
+.compare-promo h2 { margin: 0 0 12px; font-size: clamp(24px, 3vw, 34px); line-height: 1.45; }
+.compare-promo p { margin: 0; max-width: 680px; color: #d3ddd6; font-size: 14px; }
+.compare-promo .button { justify-self: start; }
+.criteria-preview { display: grid; grid-template-columns: repeat(2,1fr); gap: 11px; }
+.criteria-preview span { display: flex; align-items: center; gap: 9px; color: #eef0e9; font-size: 12px; }
+.criteria-preview span::before { content: "✓"; display: grid; place-items: center; width: 21px; height: 21px; border-radius: 7px; background: rgba(255,255,255,.12); color: #e5c28b; font-weight: 850; }
+.guide-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 17px; }
+.guide-card { display: flex; flex-direction: column; min-height: 245px; padding: 22px; border: 1px solid var(--line); border-radius: 19px; background: var(--paper); text-decoration: none; box-shadow: 0 4px 12px rgba(30,53,47,.025); transition: transform .18s ease, border-color .18s ease; }
+.guide-card:hover { transform: translateY(-2px); border-color: #bdc8bc; }
+.guide-meta { display: flex; align-items: center; justify-content: space-between; gap: 10px; color: #7b867f; font-size: 11px; }
+.guide-category { color: #7d6137; font-weight: 750; }
+.guide-card h3 { margin: 15px 0 9px; color: var(--ink); font-size: 18px; line-height: 1.6; }
+.guide-card p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.85; }
+.guide-card .arrow-link { margin-top: auto; padding-top: 17px; }
+
+/* Page title hero and content pages */
+.page-hero { padding: 50px 0 56px; background: var(--cream); }
+.page-hero .breadcrumbs { margin-top: 0; }
+.page-hero h1 { max-width: 900px; margin: 10px 0 14px; font-size: clamp(34px, 4.5vw, 50px); line-height: 1.42; letter-spacing: -.8px; }
+.page-hero p { max-width: 790px; margin: 0; color: #5a6a64; font-size: 16px; }
+.page-hero-actions { display: flex; flex-wrap: wrap; gap: 11px; margin-top: 22px; }
+.page-hero .page-meta { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 15px; color: #728078; font-size: 12px; }
+.content-section { padding-block: 58px 80px; }
+.content-prose { max-width: 820px; }
+.content-prose h2 { margin: 38px 0 12px; color: var(--ink); font-size: 26px; line-height: 1.45; }
+.content-prose h3 { margin: 27px 0 9px; color: var(--ink); font-size: 20px; line-height: 1.5; }
+.content-prose p { margin: 0 0 17px; color: #4e615a; }
+.content-prose ul, .content-prose ol { padding-inline-start: 23px; margin: 12px 0 21px; color: #4d5e58; }
+.content-prose li { margin: 7px 0; padding-inline-start: 4px; }
+.content-prose li::marker { color: var(--gold); }
+.prose-callout { margin: 23px 0; padding: 19px 22px; border-inline-start: 3px solid var(--gold); border-radius: 0 14px 14px 0; background: #f7f4ec; color: #495d54; }
+.prose-callout p:last-child { margin-bottom: 0; }
+.article-layout { display: grid; grid-template-columns: minmax(0,1fr) 270px; gap: 48px; align-items: start; }
+.article-main { min-width: 0; }
+.article-main .article-intro { color: #435a51; font-size: 18px; line-height: 2; }
+.article-main h2 { margin: 36px 0 12px; font-size: 25px; line-height: 1.5; }
+.article-main p { color: #50615b; }
+.article-aside { position: sticky; top: 108px; padding: 20px; border: 1px solid var(--line); border-radius: 18px; background: #fbfaf6; }
+.article-aside h2 { margin: 0 0 12px; font-size: 16px; }
+.article-aside ul { margin: 0; padding-inline-start: 18px; color: #66756e; font-size: 12px; }
+.article-aside li { margin: 8px 0; }
+.article-aside a { color: #4b6258; text-decoration: none; }
+.article-aside a:hover { text-decoration: underline; }
+.article-source-list { margin-top: 35px; padding: 22px; border: 1px solid var(--line); border-radius: 18px; background: #fbfaf6; }
+.article-source-list h2 { margin: 0 0 10px; font-size: 17px; }
+.article-source-list ul { margin: 0; padding-inline-start: 18px; color: var(--muted); font-size: 13px; }
+.article-source-list li { margin: 7px 0; }
+.article-source-list a { overflow-wrap: anywhere; }
+
+/* Product and comparison */
+.product-hero-grid { display: grid; grid-template-columns: 1.25fr .75fr; gap: 34px; align-items: start; }
+.product-summary-box { padding: 22px; border: 1px solid var(--line); border-radius: 20px; background: var(--paper); box-shadow: var(--shadow-soft); }
+.product-summary-box h2 { margin: 0 0 13px; font-size: 17px; }
+.product-summary-box dl { display: grid; grid-template-columns: 96px 1fr; gap: 10px 15px; margin: 0; font-size: 13px; }
+.product-summary-box dt { color: #77837c; }
+.product-summary-box dd { margin: 0; color: #314b41; font-weight: 650; }
+.product-feature-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 15px; margin-top: 24px; }
+.info-card { padding: 19px; border: 1px solid var(--line); border-radius: 17px; background: var(--paper); }
+.info-card h3 { margin: 0 0 7px; font-size: 16px; }
+.info-card p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.8; }
+.info-card .source-tag { display: block; margin-top: 11px; color: #738077; font-size: 11px; }
+.comparison-toolbar { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px; margin-bottom: 19px; padding: 15px 17px; border: 1px solid var(--line); border-radius: 16px; background: #fbfaf6; }
+.comparison-toolbar p { margin: 0; color: var(--muted); font-size: 13px; }
+.comparison-selectors { display: flex; flex-wrap: wrap; gap: 9px; }
+.product-toggle { display: inline-flex; align-items: center; gap: 8px; padding: 7px 11px; border: 1px solid var(--line-dark); border-radius: 999px; background: white; color: #3c5149; font-size: 12px; font-weight: 700; cursor: pointer; }
+.product-toggle input { accent-color: var(--forest); width: 16px; height: 16px; margin: 0; }
+.table-scroll { width: 100%; overflow-x: auto; border: 1px solid var(--line); border-radius: 18px; background: var(--paper); -webkit-overflow-scrolling: touch; }
+.comparison-table { width: 100%; min-width: 890px; border-collapse: separate; border-spacing: 0; font-size: 13px; }
+.comparison-table th, .comparison-table td { padding: 15px 14px; border-bottom: 1px solid #e9e8e0; text-align: right; vertical-align: top; }
+.comparison-table thead th { position: sticky; top: 0; z-index: 2; background: #f4f5ef; color: #304940; font-size: 13px; font-weight: 800; }
+.comparison-table thead th:first-child { right: 0; z-index: 4; min-width: 178px; }
+.comparison-table tbody th { position: sticky; right: 0; z-index: 1; width: 178px; background: #fbfaf6; color: #30463e; font-weight: 750; }
+.comparison-table tbody td { min-width: 218px; color: #50615a; }
+.comparison-table tbody tr:last-child th, .comparison-table tbody tr:last-child td { border-bottom: 0; }
+.comparison-table small { display: block; margin-top: 5px; color: #75817a; font-size: 11px; line-height: 1.65; font-weight: 450; }
+.state { display: inline-flex; align-items: center; gap: 7px; color: #356148; font-weight: 780; }
+.state::before { content: "✓"; display: inline-grid; place-items: center; width: 18px; height: 18px; border-radius: 6px; background: #e4efe5; font-size: 11px; }
+.state-conditional { color: #765c2f; }
+.state-conditional::before { content: "◌"; background: #f5ecd9; color: #886b37; }
+.state-unknown { color: #68746d; }
+.state-unknown::before { content: "؟"; background: #eceeea; color: #68746d; }
+.comparison-legend { display: flex; flex-wrap: wrap; gap: 13px 20px; margin: 16px 0 0; color: var(--muted); font-size: 12px; }
+.comparison-legend .state { font-size: 12px; }
+.product-source-note { margin-top: 21px; padding: 17px 19px; border: 1px solid #e3e4da; border-radius: 15px; background: #f7f7f2; color: #61706a; font-size: 13px; }
+.price-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin-top: 30px; }
+.price-card { padding: 18px; border: 1px solid var(--line); border-radius: 17px; background: white; }
+.price-card strong { display: block; margin-bottom: 6px; color: var(--forest); font-size: 16px; }
+.price-card p { margin: 0; color: var(--muted); font-size: 12px; }
+
+/* Iron industry landing */
+.requirement-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 14px; }
+.requirement-card { padding: 19px; border: 1px solid var(--line); border-radius: 17px; background: var(--paper); }
+.requirement-number { display: inline-grid; place-items: center; width: 30px; height: 30px; margin-bottom: 14px; border-radius: 10px; background: #e8efe7; color: var(--forest); font-size: 13px; font-weight: 800; }
+.requirement-card h3 { margin: 0 0 7px; font-size: 15px; line-height: 1.6; }
+.requirement-card p { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.75; }
+.workflow { display: grid; grid-template-columns: repeat(4,1fr); gap: 0; margin-top: 26px; border: 1px solid #e1e3d9; border-radius: 20px; background: #fffefa; overflow: hidden; }
+.workflow-step { min-height: 155px; padding: 21px; border-inline-start: 1px solid #e7e7de; }
+.workflow-step:first-child { border-inline-start: 0; }
+.workflow-step b { display: block; margin: 8px 0 4px; color: var(--forest); font-size: 15px; }
+.workflow-step p { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.75; }
+.workflow-step span { color: #9b7745; font-size: 12px; font-weight: 800; }
+.faq-list { display: grid; gap: 10px; }
+.faq-item { padding: 18px 20px; border: 1px solid var(--line); border-radius: 16px; background: #fffefa; }
+.faq-item summary { position: relative; padding-inline-end: 28px; color: #263f37; font-weight: 750; cursor: pointer; list-style: none; }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after { content: "+"; position: absolute; inset-inline-end: 0; top: 0; display: grid; place-items: center; width: 23px; height: 23px; border: 1px solid #d7dfd7; border-radius: 8px; color: var(--forest); font-size: 18px; line-height: 1; }
+.faq-item[open] summary::after { content: "−"; }
+.faq-item p { margin: 12px 0 0; color: var(--muted); font-size: 14px; }
+
+/* Lead form */
+.form-panel { padding: 29px; border: 1px solid var(--line); border-radius: 24px; background: var(--paper); box-shadow: var(--shadow-soft); }
+.form-panel h2 { margin: 0 0 8px; font-size: 23px; line-height: 1.5; }
+.form-panel > p { margin: 0 0 20px; color: var(--muted); font-size: 13px; }
+.form-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 15px; }
+.field { display: flex; flex-direction: column; gap: 6px; }
+.field-full { grid-column: 1 / -1; }
+.field label, .field-label { color: #354a42; font-size: 13px; font-weight: 750; }
+.field label .optional, .field-label .optional { color: #849088; font-size: 11px; font-weight: 500; }
+.field input, .field select, .field textarea { width: 100%; min-height: 47px; padding: 10px 12px; border: 1px solid #d7ddd5; border-radius: 11px; background: #fff; color: #283f37; }
+.field input::placeholder, .field textarea::placeholder { color: #909991; opacity: 1; }
+.field input:focus, .field select:focus, .field textarea:focus { border-color: #6f927d; outline: 3px solid rgba(71, 120, 87, .14); }
+.field textarea { min-height: 105px; resize: vertical; }
+.field-help { color: #78847d; font-size: 11px; line-height: 1.6; }
+.check-list { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 9px 16px; margin-top: 7px; }
+.check-option { display: flex; align-items: flex-start; gap: 8px; color: #51635b; font-size: 12px; line-height: 1.55; cursor: pointer; }
+.check-option input { flex: 0 0 16px; width: 16px; height: 16px; min-height: 16px; margin-top: 3px; accent-color: var(--forest); }
+.consent-row { display: flex; align-items: flex-start; gap: 9px; margin-top: 3px; color: #5e6e66; font-size: 12px; line-height: 1.7; }
+.consent-row input { flex: 0 0 16px; width: 16px; height: 16px; margin-top: 4px; accent-color: var(--forest); }
+.form-footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 15px; margin-top: 19px; }
+.form-status { min-height: 26px; margin: 14px 0 0; color: #42594f; font-size: 13px; }
+.form-status[data-state="error"] { color: #8e3c36; }
+.form-status[data-state="success"] { color: #286341; font-weight: 750; }
+.form-status[data-state="info"] { color: #775c2d; }
+.form-security { margin: 14px 0 0; color: #7b867f; font-size: 11px; }
+.hp-wrap { position: absolute !important; inset-inline-start: -9999px !important; width: 1px !important; height: 1px !important; overflow: hidden !important; }
+.noscript-note { margin-top: 12px; padding: 12px; border-radius: 10px; background: #faf0e3; color: #6e522e; font-size: 12px; }
+.consult-layout { display: grid; grid-template-columns: minmax(0,1.15fr) minmax(250px,.85fr); gap: 34px; align-items: start; }
+.consult-aside { padding: 24px; border-radius: 22px; background: var(--forest); color: #fffdf7; }
+.consult-aside h2 { margin: 0 0 12px; font-size: 20px; }
+.consult-aside p { color: #d3ddd6; font-size: 13px; }
+.consult-aside ul { padding-inline-start: 19px; color: #eef0e9; font-size: 12px; }
+.consult-aside li { margin: 9px 0; }
+
+/* Footer and closing CTA */
+.closing-cta { padding: 56px 0; background: #f0f2ec; }
+.closing-inner { display: flex; align-items: center; justify-content: space-between; gap: 22px; }
+.closing-inner h2 { margin: 0 0 6px; font-size: 25px; line-height: 1.5; }
+.closing-inner p { margin: 0; color: var(--muted); font-size: 14px; }
+.closing-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.site-footer { padding: 50px 0 22px; background: #122f2b; color: #e5ece6; }
+.footer-grid { display: grid; grid-template-columns: 1.2fr .8fr .8fr; gap: 42px; padding-bottom: 37px; }
+.footer-brand { display: flex; align-items: center; gap: 11px; }
+.footer-brand img { width: 44px; height: 44px; }
+.footer-brand strong { display: block; font-size: 17px; }
+.footer-brand span { display: block; margin-top: 4px; color: #b7c7bd; font-size: 11px; }
+.footer-intro { max-width: 360px; margin: 16px 0 0; color: #bac9c0; font-size: 13px; line-height: 1.9; }
+.footer-col h2 { margin: 1px 0 14px; color: #f3efe4; font-size: 14px; }
+.footer-col ul { display: grid; gap: 9px; margin: 0; padding: 0; list-style: none; }
+.footer-col a { color: #c4d0c8; font-size: 12px; text-decoration: none; }
+.footer-col a:hover { color: white; text-decoration: underline; }
+.footer-bottom { display: flex; justify-content: space-between; gap: 18px; padding-top: 18px; border-top: 1px solid rgba(218,229,220,.16); color: #aebeb5; font-size: 11px; }
+.footer-bottom a { color: #d4dfd8; }
+.footer-disclosure { max-width: 490px; margin: 0; }
+
+/* 404 page */
+.error-hero { min-height: 58vh; display: grid; place-items: center; text-align: center; background: var(--cream); }
+.error-hero h1 { margin: 8px 0; font-size: clamp(40px,7vw,70px); color: var(--forest); }
+.error-hero p { max-width: 570px; margin: 8px auto 22px; color: var(--muted); }
+
+@media (max-width: 1050px) {
+  .primary-nav { gap: 16px; }
+  .primary-nav a { font-size: 13px; }
+  .hero-grid { gap: 34px; grid-template-columns: minmax(0,1fr) minmax(320px,.9fr); }
+  .hero h1 { font-size: clamp(37px,5.3vw,52px); }
+  .requirement-grid { grid-template-columns: repeat(2,1fr); }
+}
+@media (max-width: 860px) {
+  .container { width: min(calc(100% - 38px), var(--content)); }
+  .narrow { width: min(calc(100% - 38px), 820px); }
+  .header-inner { min-height: 70px; gap: 13px; }
+  .menu-toggle { display: inline-flex; order: 3; }
+  .header-cta { margin-inline-start: auto; }
+  .header-cta .button { min-height: 42px; padding: 8px 12px; font-size: 12px; }
+  .primary-nav { display: none; position: absolute; top: calc(100% + 1px); inset-inline: 0; flex-direction: column; align-items: stretch; gap: 0; padding: 8px 19px 18px; border-bottom: 1px solid var(--line); background: #fffefa; box-shadow: 0 12px 20px rgba(20,47,42,.08); }
+  .primary-nav.is-open { display: flex; }
+  .primary-nav a { padding: 12px 4px; border-bottom: 1px solid #f0eee7; font-size: 14px; }
+  .hero { padding: 36px 0 54px; }
+  .hero-grid { grid-template-columns: 1fr; gap: 27px; }
+  .hero-copy { max-width: 760px; }
+  .hero-art { width: min(100%,630px); margin-inline: auto; }
+  .hero-art img { max-height: 500px; object-fit: cover; }
+  .product-grid, .guide-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .product-grid .product-card:last-child:nth-child(odd) { grid-column: 1 / -1; }
+  .industry-grid { grid-template-columns: repeat(2,1fr); }
+  .compare-promo { grid-template-columns: 1fr; gap: 22px; }
+  .criteria-preview { grid-template-columns: repeat(4,1fr); }
+  .article-layout { grid-template-columns: 1fr; gap: 25px; }
+  .article-aside { position: static; order: -1; }
+  .article-aside ul { display: grid; grid-template-columns: repeat(2,1fr); gap: 0 14px; }
+  .product-hero-grid { grid-template-columns: 1fr; }
+  .workflow { grid-template-columns: repeat(2,1fr); }
+  .workflow-step:nth-child(3) { border-inline-start: 0; border-top: 1px solid #e7e7de; }
+  .workflow-step:nth-child(4) { border-top: 1px solid #e7e7de; }
+  .consult-layout { grid-template-columns: 1fr; }
+  .footer-grid { grid-template-columns: 1.1fr .9fr; }
+}
+@media (max-width: 600px) {
+  body { font-size: 15px; }
+  .container, .narrow { width: min(calc(100% - 32px), var(--content)); }
+  .brand img { width: 38px; height: 38px; }
+  .brand-name { font-size: 16px; }
+  .brand-tagline { font-size: 10px; }
+  .header-cta .button { min-height: 39px; padding: 7px 10px; font-size: 11px; border-radius: 10px; }
+  .menu-toggle { width: 40px; height: 40px; border-radius: 10px; }
+  .hero { padding: 28px 0 42px; }
+  .hero h1 { margin-top: 13px; font-size: clamp(33px, 9vw, 42px); line-height: 1.43; letter-spacing: -.8px; }
+  .hero h1 em { white-space: normal; }
+  .hero-lede { font-size: 15px; }
+  .hero-actions { display: grid; grid-template-columns: 1fr; margin-top: 22px; }
+  .hero-actions .button { width: 100%; }
+  .hero-meta { gap: 9px 14px; font-size: 11px; }
+  .hero-art img { border-radius: 23px; }
+  .hero-caption { bottom: -13px; font-size: 10px; }
+  .section { padding-block: 56px; }
+  .section-head { display: block; margin-bottom: 22px; }
+  .section-head h2 { font-size: 27px; }
+  .section-head p { font-size: 13px; }
+  .industry-grid { gap: 10px; }
+  .industry-card { min-height: 161px; padding: 15px; border-radius: 15px; }
+  .industry-card-icon { width: 37px; height: 37px; }
+  .industry-card h3 { font-size: 14px; }
+  .industry-card p { font-size: 11px; }
+  .product-grid, .guide-grid { grid-template-columns: 1fr; }
+  .product-grid .product-card:last-child:nth-child(odd) { grid-column: auto; }
+  .product-card { padding: 19px; }
+  .guide-card { min-height: 216px; }
+  .compare-promo { padding: 24px 20px; border-radius: 20px; }
+  .criteria-preview { grid-template-columns: repeat(2,1fr); }
+  .page-hero { padding: 28px 0 34px; }
+  .page-hero h1 { font-size: 33px; line-height: 1.45; }
+  .page-hero p { font-size: 14px; }
+  .page-hero-actions { display: grid; grid-template-columns: 1fr; }
+  .page-hero-actions .button { width: 100%; }
+  .content-section { padding-block: 35px 55px; }
+  .content-prose h2 { font-size: 22px; }
+  .content-prose h3 { font-size: 18px; }
+  .article-main .article-intro { font-size: 16px; }
+  .article-main h2 { font-size: 22px; }
+  .article-aside { padding: 16px; }
+  .article-aside ul { grid-template-columns: 1fr; }
+  .product-summary-box { padding: 17px; }
+  .product-summary-box dl { grid-template-columns: 84px 1fr; font-size: 12px; }
+  .product-feature-grid { grid-template-columns: 1fr; }
+  .requirement-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .requirement-card { padding: 15px; }
+  .requirement-card h3 { font-size: 13px; }
+  .requirement-card p { font-size: 11px; }
+  .workflow { grid-template-columns: 1fr; }
+  .workflow-step, .workflow-step:nth-child(3) { min-height: 0; padding: 17px; border-inline-start: 0; border-top: 1px solid #e7e7de; }
+  .workflow-step:first-child { border-top: 0; }
+  .comparison-toolbar { align-items: flex-start; }
+  .comparison-selectors { gap: 7px; }
+  .price-cards { grid-template-columns: 1fr; }
+  .form-panel { padding: 20px 16px; border-radius: 18px; }
+  .form-panel h2 { font-size: 20px; }
+  .form-grid { grid-template-columns: 1fr; gap: 13px; }
+  .field-full { grid-column: auto; }
+  .check-list { grid-template-columns: 1fr; }
+  .form-footer { align-items: stretch; }
+  .form-footer .button { width: 100%; }
+  .closing-inner { display: block; }
+  .closing-inner h2 { font-size: 22px; }
+  .closing-actions { margin-top: 17px; }
+  .closing-actions .button { width: 100%; }
+  .footer-grid { grid-template-columns: 1fr 1fr; gap: 27px 18px; }
+  .footer-grid > :first-child { grid-column: 1 / -1; }
+  .footer-bottom { display: block; }
+  .footer-disclosure { margin-top: 8px; }
+}
+@media (max-width: 380px) {
+  .container, .narrow { width: calc(100% - 26px); }
+  .brand { gap: 7px; }
+  .brand-tagline { display: none; }
+  .header-cta .button { padding-inline: 8px; }
+  .menu-toggle { width: 37px; }
+  .requirement-grid { grid-template-columns: 1fr; }
+  .footer-grid { grid-template-columns: 1fr; }
+  .footer-grid > :first-child { grid-column: auto; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
+}
+
+</style>
+<meta content="fa_IR" property="og:locale"/>
+<meta content="website" property="og:type"/>
+<meta content="ترازِ روشن" property="og:site_name"/>
+<meta content="راهنمای انتخاب نرم‌افزار حسابداری آهن‌فروشی | تراز روشن" property="og:title"/>
+<meta content="مقایسه مستند نرم‌افزارهای حسابداری آهن و فولاد، قیمت‌های تاریخ‌دار، معیارهای انبار و فروش وزنی و راهنمای انتخاب برای کسب‌وکار شما." property="og:description"/>
+<meta content="summary" name="twitter:card"/>
+<title>راهنمای انتخاب نرم‌افزار حسابداری آهن‌فروشی | تراز روشن</title>
+</head>
+<body id="top">
+<a class="skip-link" href="#main-content">رفتن به محتوای اصلی</a>
+<header class="site-header">
+<div class="container header-inner">
+<a aria-label="تراز روشن؛ رفتن به صفحه نخست" class="brand" href="#top">
+<img alt="" fetchpriority="high" height="43" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9InRpdGxlIj4KICA8dGl0bGUgaWQ9InRpdGxlIj7Zhti02KfZhiDYqtix2KfYsiDYsdmI2LTZhjwvdGl0bGU+CiAgPHJlY3QgeD0iMiIgeT0iMiIgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIiByeD0iMTkiIGZpbGw9IiMxNzNiMzYiLz4KICA8cGF0aCBkPSJNMTcgMjJoMzBNMjIgMjJ2MjJtMjAtMjJ2MjJNMTcgNDRoMzAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2Y1ZWVlMSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8cGF0aCBkPSJNMzIgMTR2MzQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2NmOWI1NCIgc3Ryb2tlLXdpZHRoPSIzLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjMyIiBjeT0iMTQiIHI9IjQuMiIgZmlsbD0iI2NmOWI1NCIvPgogIDxwYXRoIGQ9Im0yMCA0OSAxMi02IDEyIDYiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2NmOWI1NCIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==" width="43"/>
+<span><span class="brand-name">ترازِ روشن</span><span class="brand-tagline">راهنمای شفاف انتخاب نرم‌افزار</span></span>
+</a>
+<nav aria-label="راهبری اصلی" class="primary-nav" id="primary-navigation"><a href="#industry-title">راهنمای آهن‌فروشان</a><a href="#compare-title">مقایسه نرم‌افزارها</a><a href="#guides-title">مقاله‌ها</a><a href="#about">درباره ما</a></nav>
+<a class="button button-primary button-small header-cta" href="#home-lead-form">درخواست مشاوره</a>
+<button aria-controls="primary-navigation" aria-expanded="false" aria-label="بازکردن فهرست راهبری" class="menu-toggle" type="button"><svg aria-hidden="true" fill="none" focusable="false" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24" width="24"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></button>
+</div>
+</header>
+<main id="main-content"><section class="hero"><div class="container hero-grid">
+<div class="hero-copy">
+<span class="kicker"><span aria-hidden="true" class="kicker-dot"></span>راهنمای مستقل؛ با منبع و تاریخ بررسی</span>
+<h1>نرم‌افزار حسابداری مناسب <em>آهن‌آلات</em> را با معیارهای واقعی انتخاب کنید</h1>
+<p class="hero-lede">تبدیل کیلو و شاخه، کنترل چند انبار، چک و گزارش سود را پیش از خرید با هم بسنجید. ما اطلاعات رسمی محصولات را کنار پرسش‌های عملی کسب‌وکار شما می‌گذاریم—بی‌امتیاز ساختگی و بدون رتبه‌بندی پولی.</p>
+<div class="hero-actions"><a class="button button-primary" href="#compare-title">پیدا کردن نرم‌افزار مناسب <span aria-hidden="true">←</span></a><a class="button button-secondary" href="#home-lead-form">درخواست مشاوره</a></div>
+<div class="hero-meta"><span>تمرکز نخست: آهن و فولاد ایران</span><span>مبالغ با تاریخ بازبینی</span><span>شفاف درباره همکاری مالی</span></div>
+</div>
+<div class="hero-art"><img alt="تصویر شماتیک انبار آهن‌آلات، گردش کالا و گزارش مالی؛ داده‌ها نمایشی هستند" fetchpriority="high" height="610" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3NjAgNjEwIiBmaWxsPSJub25lIiByb2xlPSJpbWciIGFyaWEtbGFiZWxsZWRieT0iaGVyby10aXRsZSBoZXJvLWRlc2MiPgogIDx0aXRsZSBpZD0iaGVyby10aXRsZSI+2YbZhdin24wg2KrYtdmI24zYsduMINin2LIg2YXYr9uM2LHbjNiqINiu2LHbjNiv2Iwg2KfZhtio2KfYsSDZiCDYrdiz2KfYqNiv2KfYsduMPC90aXRsZT4KICA8ZGVzYyBpZD0iaGVyby1kZXNjIj7YtNmF2KfYqtuM2qkg24zaqSDYp9mG2KjYp9ixINmF2YLYp9i32Lkg2YHZiNmE2KfYr9uMINiv2LEg2qnZhtin2LEg2qnYp9ix2KrigIzZh9in24wg2q/Ysdiv2LQg2qnYp9mE2Kcg2Ygg2q/Ystin2LHYtCDZhdin2YTbjDwvZGVzYz4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYmciIHgxPSI2MCIgeTE9IjQyIiB4Mj0iNjg4IiB5Mj0iNTcwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iI0YzRURFMCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI0U1RTlFMSIvPjwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InN0ZWVsIiB4MT0iMTA2IiB5MT0iMjgxIiB4Mj0iNDkzIiB5Mj0iNDc4IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iIzc4OTI4QSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzM4NTk1MiIvPjwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdvbGQiIHgxPSIxNDciIHkxPSIzODkiIHgyPSI0NjIiIHkyPSI0NDIiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjRDdBQzZBIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjQjY3RDNCIi8+PC9saW5lYXJHcmFkaWVudD4KICAgIDxmaWx0ZXIgaWQ9InNoYWRvdyIgeD0iMjQ0IiB5PSI2OSIgd2lkdGg9IjQ3NyIgaGVpZ2h0PSI0MzQiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48ZmVGbG9vZCBmbG9vZC1vcGFjaXR5PSIwIiByZXN1bHQ9IkJhY2tncm91bmRJbWFnZUZpeCIvPjxmZUNvbG9yTWF0cml4IGluPSJTb3VyY2VBbHBoYSIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAxMjcgMCIgcmVzdWx0PSJoYXJkQWxwaGEiLz48ZmVPZmZzZXQgZHk9IjEyIi8+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMTUiLz48ZmVDb21wb3NpdGUgaW4yPSJoYXJkQWxwaGEiIG9wZXJhdG9yPSJvdXQiLz48ZmVDb2xvck1hdHJpeCB2YWx1ZXM9IjAgMCAwIDAgMC4xIDAgMCAwIDAgMC4xNiAwIDAgMCAwIDAuMTQgMCAwIDAgMC4xNiAwIi8+PGZlQmxlbmQgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0iZWZmZWN0MV9kcm9wU2hhZG93Ii8+PGZlQmxlbmQgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iZWZmZWN0MV9kcm9wU2hhZG93IiByZXN1bHQ9InNoYXBlIi8+PC9maWx0ZXI+CiAgICA8cGF0dGVybiBpZD0iZG90cyIgd2lkdGg9IjE5IiBoZWlnaHQ9IjE5IiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48Y2lyY2xlIGN4PSIyIiBjeT0iMiIgcj0iMS40IiBmaWxsPSIjNUU3NzZFIiBmaWxsLW9wYWNpdHk9Ii4yMiIvPjwvcGF0dGVybj4KICA8L2RlZnM+CiAgPHJlY3QgeD0iMTQiIHk9IjE0IiB3aWR0aD0iNzMyIiBoZWlnaHQ9IjU4MiIgcng9IjQ0IiBmaWxsPSJ1cmwoI2JnKSIvPgogIDxjaXJjbGUgY3g9IjY1MSIgY3k9IjEwNSIgcj0iNzAiIGZpbGw9InVybCgjZG90cykiLz4KICA8Y2lyY2xlIGN4PSI5MCIgY3k9IjQ5OCIgcj0iODgiIGZpbGw9InVybCgjZG90cykiLz4KICA8cGF0aCBkPSJNNzIgNDg0aDM5NCIgc3Ryb2tlPSIjRDJEOEQwIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxwYXRoIGQ9Ik0xMDQgMjMxIDMwMCAxNDZsMTkzIDg1djIzM0gxMDRWMjMxWiIgZmlsbD0iI0U4RTlFMCIgc3Ryb2tlPSIjNzg5MDg4IiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICA8cGF0aCBkPSJNMTA0IDIzMSAzMDAgMTQ2bDE5MyA4NSIgc3Ryb2tlPSIjNDk2ODVGIiBzdHJva2Utd2lkdGg9IjciIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgogIDxwYXRoIGQ9Ik0xMzggMjQydjIwMm03OC0yMzZ2MjM2bTgyLTI3MnYyNzJtODItMjM1djIzNW03OC0yMDN2MjAzIiBzdHJva2U9IiM5QUFFQTUiIHN0cm9rZS13aWR0aD0iMyIvPgogIDxwYXRoIGQ9Ik0xMjMgMzM0aDM1N00xMjMgMzg5aDM1NyIgc3Ryb2tlPSIjQjJCRkI2IiBzdHJva2Utd2lkdGg9IjMiLz4KICA8ZyBvcGFjaXR5PSIuOTYiPgogICAgPHBhdGggZD0iTTE0MiAyOTFoNTdsMTUgMTN2MjBoLTcydi0zM1oiIGZpbGw9InVybCgjc3RlZWwpIi8+PHBhdGggZD0iTTE0MiAyOTFoNTdsMTUgMTNoLTcydi0xM1oiIGZpbGw9IiM5REIxQTciLz4KICAgIDxwYXRoIGQ9Ik0yMjIgMjkxaDUzbDE1IDEzdjIwaC02OHYtMzNaIiBmaWxsPSJ1cmwoI2dvbGQpIi8+PHBhdGggZD0iTTIyMiAyOTFoNTNsMTUgMTNoLTY4di0xM1oiIGZpbGw9IiNFN0M1OEYiLz4KICAgIDxwYXRoIGQ9Ik0zMDIgMjkxaDU4bDE1IDEzdjIwaC03M3YtMzNaIiBmaWxsPSJ1cmwoI3N0ZWVsKSIvPjxwYXRoIGQ9Ik0zMDIgMjkxaDU4bDE1IDEzaC03M3YtMTNaIiBmaWxsPSIjOURCMUE3Ii8+CiAgICA8cGF0aCBkPSJNMzgzIDI5MWg0NmwxNiAxM3YyMGgtNjJ2LTMzWiIgZmlsbD0idXJsKCNnb2xkKSIvPjxwYXRoIGQ9Ik0zODMgMjkxaDQ2bDE2IDEzaC02MnYtMTNaIiBmaWxsPSIjRTdDNThGIi8+CiAgICA8cGF0aCBkPSJNMTQxIDM1Mmg1NGwxNiAxM3YxNWgtNzB2LTI4WiIgZmlsbD0idXJsKCNnb2xkKSIvPjxwYXRoIGQ9Ik0xNDEgMzUyaDU0bDE2IDEzaC03MHYtMTNaIiBmaWxsPSIjRTdDNThGIi8+CiAgICA8cGF0aCBkPSJNMjIxIDM1Mmg1NmwxNCAxM3YxNWgtNzB2LTI4WiIgZmlsbD0idXJsKCNzdGVlbCkiLz48cGF0aCBkPSJNMjIxIDM1Mmg1NmwxNCAxM2gtNzB2LTEzWiIgZmlsbD0iIzlEQjFBNyIvPgogICAgPHBhdGggZD0iTTMwMCAzNTJoNThsMTUgMTN2MTVoLTczdi0yOFoiIGZpbGw9InVybCgjZ29sZCkiLz48cGF0aCBkPSJNMzAwIDM1Mmg1OGwxNSAxM2gtNzN2LTEzWiIgZmlsbD0iI0U3QzU4RiIvPgogICAgPHBhdGggZD0iTTM4MSAzNTJoNDdsMTYgMTN2MTVoLTYzdi0yOFoiIGZpbGw9InVybCgjc3RlZWwpIi8+PHBhdGggZD0iTTM4MSAzNTJoNDdsMTYgMTNoLTYzdi0xM1oiIGZpbGw9IiM5REIxQTciLz4KICAgIDxwYXRoIGQ9Ik0xNDEgNDA3aDcwdjIyaC03MHYtMjJaIiBmaWxsPSIjNTQ3NDZCIi8+PHBhdGggZD0iTTIyMSA0MDdoNzB2MjJoLTcwdi0yMloiIGZpbGw9IiNCRThCNEIiLz48cGF0aCBkPSJNMzAxIDQwN2g3M3YyMmgtNzN2LTIyWiIgZmlsbD0iIzU0NzQ2QiIvPjxwYXRoIGQ9Ik0zODMgNDA3aDYxdjIyaC02MXYtMjJaIiBmaWxsPSIjQkU4QjRCIi8+CiAgPC9nPgogIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgIDxyZWN0IHg9IjMzNSIgeT0iODkiIHdpZHRoPSIzMzYiIGhlaWdodD0iMzM2IiByeD0iMjYiIGZpbGw9IiNGRkZFRkEiLz4KICAgIDxwYXRoIGQ9Ik0zNjEgMTMyaDE0MyIgc3Ryb2tlPSIjRTdFOUUyIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogICAgPGNpcmNsZSBjeD0iMzc1IiBjeT0iMTExIiByPSI1IiBmaWxsPSIjQ0I5NTUwIi8+PGNpcmNsZSBjeD0iMzkyIiBjeT0iMTExIiByPSI1IiBmaWxsPSIjQ0VEOEQwIi8+PGNpcmNsZSBjeD0iNDA5IiBjeT0iMTExIiByPSI1IiBmaWxsPSIjQ0VEOEQwIi8+CiAgICA8dGV4dCB4PSI2MzgiIHk9IjE2NCIgZmlsbD0iIzE5M0IzNSIgZm9udC1mYW1pbHk9IlRhaG9tYSxBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjIwIiBmb250LXdlaWdodD0iNzAwIiB0ZXh0LWFuY2hvcj0iZW5kIj7ar9ix2K/YtCDaqdin2YTYpzwvdGV4dD4KICAgIDx0ZXh0IHg9IjYzOCIgeT0iMTg4IiBmaWxsPSIjNzc4MjdBIiBmb250LWZhbWlseT0iVGFob21hLEFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIHRleHQtYW5jaG9yPSJlbmQiPtmG2YXYp9uMINmG2YXZiNmG2YfYmyDZhtmHINiv2KfYr9mHINmI2KfZgti524w8L3RleHQ+CiAgICA8cmVjdCB4PSIzNjQiIHk9IjIwOCIgd2lkdGg9IjI3OCIgaGVpZ2h0PSI3MCIgcng9IjE0IiBmaWxsPSIjRjRGNUVGIi8+CiAgICA8cmVjdCB4PSIzNzYiIHk9IjIyMSIgd2lkdGg9IjQxIiBoZWlnaHQ9IjQyIiByeD0iMTEiIGZpbGw9IiNFMkVDRTUiLz4KICAgIDxwYXRoIGQ9Ik0zODggMjQ2di05bTggOXYtMTdtOCAxN3YtMTIiIHN0cm9rZT0iIzJFNjc1OSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICAgIDx0ZXh0IHg9IjYyNCIgeT0iMjM2IiBmaWxsPSIjNjY3NDZCIiBmb250LWZhbWlseT0iVGFob21hLEFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIHRleHQtYW5jaG9yPSJlbmQiPtmF2YjYrNmI2K/bjCDYq9io2KrigIzYtNiv2Yc8L3RleHQ+CiAgICA8dGV4dCB4PSI2MjQiIHk9IjI2MCIgZmlsbD0iIzFDM0QzNiIgZm9udC1mYW1pbHk9IlRhaG9tYSxBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE4IiBmb250LXdlaWdodD0iNzAwIiB0ZXh0LWFuY2hvcj0iZW5kIj7Ysdiv24zYp9io24wg2KrYpyDYp9mG2KjYp9ixPC90ZXh0PgogICAgPHJlY3QgeD0iMzY0IiB5PSIyOTQiIHdpZHRoPSIyNzgiIGhlaWdodD0iOTUiIHJ4PSIxNCIgZmlsbD0iI0Y4RjRFQiIvPgogICAgPHBhdGggZD0iTTM4OCAzNTl2LTIzbTE2IDIzdi0zOG0xNiAzOHYtMzFtMTYgMzF2LTUwIiBzdHJva2U9IiNDMjhBNDUiIHN0cm9rZS13aWR0aD0iOCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgICA8cGF0aCBkPSJNMzgzIDM2OWg2NyIgc3Ryb2tlPSIjRERDRkI5IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogICAgPHRleHQgeD0iNjI0IiB5PSIzMjciIGZpbGw9IiM2Njc0NkIiIGZvbnQtZmFtaWx5PSJUYWhvbWEsQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9ImVuZCI+2K7YsduM2K/YjCDZgdix2YjYtCDZiCDYqtiz2YjbjNmHPC90ZXh0PgogICAgPHRleHQgeD0iNjI0IiB5PSIzNTMiIGZpbGw9IiMxQzNEMzYiIGZvbnQtZmFtaWx5PSJUYWhvbWEsQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNyIgZm9udC13ZWlnaHQ9IjcwMCIgdGV4dC1hbmNob3I9ImVuZCI+2KfYt9mE2KfYudin2Kog2qnZhtin2LEg2YfZhTwvdGV4dD4KICA8L2c+CiAgPGc+CiAgICA8cmVjdCB4PSI0OCIgeT0iMTE2IiB3aWR0aD0iMTg3IiBoZWlnaHQ9IjY4IiByeD0iMTciIGZpbGw9IiMxNzNCMzYiLz4KICAgIDxjaXJjbGUgY3g9Ijc4IiBjeT0iMTUwIiByPSIxNSIgZmlsbD0iI0Q0QTQ1RiIvPgogICAgPHBhdGggZD0ibTcyIDE1MCA0IDQgOC05IiBzdHJva2U9IiMxNzNCMzYiIHN0cm9rZS13aWR0aD0iMi43IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICAgIDx0ZXh0IHg9IjIxMyIgeT0iMTQ2IiBmaWxsPSIjRkZGREY3IiBmb250LWZhbWlseT0iVGFob21hLEFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIHRleHQtYW5jaG9yPSJlbmQiPtmF2LnbjNin2LEg2LHZiNi02YY8L3RleHQ+CiAgICA8dGV4dCB4PSIyMTMiIHk9IjE2NyIgZmlsbD0iI0RERThERiIgZm9udC1mYW1pbHk9IlRhaG9tYSxBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0iZW5kIj7ZhdmG2KjYuSDZiCDYqtin2LHbjNiuINio2LHYsdiz24w8L3RleHQ+CiAgPC9nPgogIDxnPgogICAgPHJlY3QgeD0iNDcwIiB5PSI0NjgiIHdpZHRoPSIyMjkiIGhlaWdodD0iNzgiIHJ4PSIxOCIgZmlsbD0iI0ZGRkRGOCIgc3Ryb2tlPSIjRTRFMEQ2IiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIDxwYXRoIGQ9Ik00OTUgNTEwaDI5bS0yMi05IDgtOCA4IDgiIHN0cm9rZT0iIzJGNjY1OCIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgogICAgPHRleHQgeD0iNjc1IiB5PSI1MDAiIGZpbGw9IiMxOTNCMzUiIGZvbnQtZmFtaWx5PSJUYWhvbWEsQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgZm9udC13ZWlnaHQ9IjcwMCIgdGV4dC1hbmNob3I9ImVuZCI+2b7bjNi0INin2LIg2KfZhtiq2K7Yp9ioPC90ZXh0PgogICAgPHRleHQgeD0iNjc1IiB5PSI1MjIiIGZpbGw9IiM3NjgxN0EiIGZvbnQtZmFtaWx5PSJUYWhvbWEsQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9ImVuZCI+2YbbjNin2LIg2YjYp9mC2LnbjCDYsdinINio2Kcg2K/ZhdmIINio2LPZhtis24zYrzwvdGV4dD4KICA8L2c+CiAgPHBhdGggZD0iTTUxMSA0NTZjMTAtMTQgMjAtMjMgMzUtMjYiIHN0cm9rZT0iI0M4OTM0QiIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1kYXNoYXJyYXk9IjUgOCIvPgo8L3N2Zz4K" width="760"/><span class="hero-caption">تصویر مفهومی؛ بدون نمایش داده مشتری</span></div>
+</div></section>
+<section aria-labelledby="industry-title" class="section"><div class="container">
+<div class="section-head"><div><p class="eyebrow">از نیاز خود شروع کنید</p><h2 id="industry-title">راهنما برای چه نوع کسب‌وکاری؟</h2><p>پوشش تخصصی فعلی روی خرید، فروش و انبارداری آهن و فولاد متمرکز است. برای حوزه‌های دیگر، درخواست بررسی نیازتان را بفرستید.</p></div></div>
+<div class="industry-grid">
+<a class="industry-card active" href="#industry-title"><span class="industry-card-icon"><svg aria-hidden="true" fill="none" focusable="false" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24" width="24"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1V10Z"></path><path d="M8 10h.01M12 10h.01M16 10h.01"></path></svg></span><span><h3>آهن و فولاد</h3><p>میلگرد، تیرآهن، ورق، لوله و پروفیل</p></span><span class="card-status">راهنمای تخصصی آماده</span></a>
+<a class="industry-card" href="#home-lead-form"><span class="industry-card-icon"><svg aria-hidden="true" fill="none" focusable="false" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24" width="24"><path d="M7 7h13l-3-3M17 17H4l3 3M20 7l-3 3M4 17l3-3"></path></svg></span><span><h3>عمده‌فروشی و پخش</h3><p>نیازهای چندکاربره، شعبه و گردش کالا</p></span><span class="card-status future">درخواست بررسی</span></a>
+<a class="industry-card" href="#home-lead-form"><span class="industry-card-icon"><svg aria-hidden="true" fill="none" focusable="false" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24" width="24"><path d="M5 3h14v18H5zM8 7h8M8 11h8M8 15h5"></path><path d="M3 6v15h14"></path></svg></span><span><h3>فروشگاه خرده‌فروشی</h3><p>فاکتور، موجودی، حساب مشتریان</p></span><span class="card-status future">درخواست بررسی</span></a>
+<a class="industry-card" href="#home-lead-form"><span class="industry-card-icon"><svg aria-hidden="true" fill="none" focusable="false" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24" width="24"><path d="M4 19V5M4 19h17M8 15l4-4 3 2 5-7"></path><path d="M17 6h3v3"></path></svg></span><span><h3>کارگاه ساخت فلز</h3><p>مواد اولیه، تولید و گزارش‌گیری</p></span><span class="card-status future">درخواست بررسی</span></a>
+</div>
+</div></section>
+<section aria-labelledby="products-title" class="section section-soft"><div class="container">
+<div class="section-head"><div><p class="eyebrow">نمونه‌های قابل بررسی</p><h2 id="products-title">اطلاعات محصول، کنار منبع رسمی</h2><p>این فهرست رتبه‌بندی نیست. برای هر گزینه، قابلیت تأییدشده را از موردی که در صفحه عمومی روشن نیست جدا کرده‌ایم.</p></div><a class="arrow-link" href="#compare-title">دیدن جدول مقایسه <span aria-hidden="true">←</span></a></div>
+<div class="product-grid"><article class="product-card" id="product-holoo">
+<div class="product-card-top"><span aria-hidden="true" class="product-mark">ه</span><span class="badge"><span aria-hidden="true" class="badge-dot"></span>بازبینی ۱۴۰۵/۰۷/۲۸</span></div>
+<span class="product-vendor">گروه فناوری اطلاعات هلو</span>
+<h3><a href="#product-holoo">هلو APEX آهن‌فروشی</a></h3>
+<p>نسخه صنفی هلو برای فروش آهن‌آلات؛ صفحه رسمی، تبدیل فروش شاخه‌ای و کیلویی، شماره ردیف کالا و نسخه‌های مختلف آهن‌فروشی را توضیح می‌دهد.</p>
+<p class="price-line">بازه درج‌شده: ۱۳٬۷۰۰٬۰۰۰ تا ۶۱٬۷۰۰٬۰۰۰ تومان؛ بسته به سطح انتخابی</p>
+<div class="card-actions"><a class="arrow-link" href="#product-holoo">مشاهده بررسی <span aria-hidden="true">←</span></a><a class="small-note" href="https://holoo.co.ir/product/%D8%A2%D9%87%D9%86/" rel="noopener noreferrer" target="_blank">صفحه رسمی ↗</a></div>
+</article><article class="product-card" id="product-mahak">
+<div class="product-card-top"><span aria-hidden="true" class="product-mark">م</span><span class="badge"><span aria-hidden="true" class="badge-dot"></span>بازبینی ۱۴۰۵/۰۷/۲۸</span></div>
+<span class="product-vendor">گروه نرم‌افزاری محک</span>
+<h3><a href="#product-mahak">محک؛ نرم‌افزار آهن‌فروشی</a></h3>
+<p>راهکار صنفی محک برای فروش آهن‌آلات؛ صفحه رسمی آن فروش وزنی، واحدهای چندگانه، چند انبار و سطح‌های قیمت را توضیح می‌دهد.</p>
+<p class="price-line">شروع از ۱۰٬۹۸۷٬۰۰۰ تومان</p>
+<div class="card-actions"><a class="arrow-link" href="#product-mahak">مشاهده بررسی <span aria-hidden="true">←</span></a><a class="small-note" href="https://www.mahaksoft.com/ironmongery-accounting-software/" rel="noopener noreferrer" target="_blank">صفحه رسمی ↗</a></div>
+</article><article class="product-card" id="product-polad">
+<div class="product-card-top"><span aria-hidden="true" class="product-mark">پ</span><span class="badge"><span aria-hidden="true" class="badge-dot"></span>بازبینی ۱۴۰۵/۰۷/۲۸</span></div>
+<span class="product-vendor">داده‌گستران پژواک آریا؛ فروشگاه پژواک</span>
+<h3><a href="#product-polad">پولاد؛ نرم‌افزار فروش آهن‌آلات</a></h3>
+<p>راهکار پولاد برای فروش آهن و فلزات؛ صفحه رسمی فروشگاه پژواک، خرید و فروش با واحدهای مختلف، عملیات چندانباره و گزارش‌های موجودی و مالی را شرح می‌دهد.</p>
+<p class="price-line">۲۱٬۸۰۰٬۰۰۰ تومان؛ نیازمند بازبینی هنگام خرید</p>
+<div class="card-actions"><a class="arrow-link" href="#product-polad">مشاهده بررسی <span aria-hidden="true">←</span></a><a class="small-note" href="https://pejvakshop.ir/product/%D9%81%D8%B1%D9%88%D8%B4%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D8%A2%D9%87%D9%86-%D8%A2%D9%84%D8%A7%D8%AA-%D9%BE%D9%88%D9%84%D8%A7%D8%AF" rel="noopener noreferrer" target="_blank">صفحه رسمی ↗</a></div>
+</article></div>
+</div></section>
+<section aria-labelledby="compare-title" class="section"><div class="container">
+<div class="compare-promo"><div><p class="eyebrow" style="color:#e4c58e">پیش از تصمیم، فرایند را بسنجید</p><h2 id="compare-title">مقایسه‌ای بر پایه کار روزانه شما</h2><p>از تبدیل واحد و ردیابی کالا تا چک، گزارش‌ها، اتصال مالیاتی و مدل استقرار. هر خانه در جدول با وضعیت شواهد و توضیح کوتاه همراه است.</p></div><div><div class="criteria-preview"><span>فروش وزنی و تبدیل واحد</span><span>انبار و انتقال</span><span>حساب و چک</span><span>قیمت و پشتیبانی</span></div><a class="button button-light" href="#compare-title">رفتن به مقایسه کامل <span aria-hidden="true">←</span></a></div></div>
+</div></section>
+<section aria-labelledby="guides-title" class="section section-soft"><div class="container">
+<div class="section-head"><div><p class="eyebrow">راهنمای خرید و اجرا</p><h2 id="guides-title">پرسش‌های واقعی، پاسخ‌های کاربردی</h2><p>راهنماها برای آزمودن فرایندهای واقعی نوشته شده‌اند؛ نه برای تکرار فهرست تبلیغاتی امکانات.</p></div><a class="arrow-link" href="#guides-title">همه راهنماها <span aria-hidden="true">←</span></a></div>
+<div class="guide-grid"><a class="guide-card" href="#guide-inventory" id="guide-inventory">
+<span class="guide-meta"><span class="guide-category">مدیریت انبار</span><span>۷ دقیقه مطالعه</span></span>
+<h3>کنترل موجودی آهن‌آلات؛ از ثبت شاخه تا ارزش ریالی</h3>
+<p>راهنمای عملی برای تعریف کالا، تبدیل واحد، انتقال بین انبارها و انبارگردانی در فروشگاه آهن و فولاد؛ همراه با چک‌لیست اجرای آزمایشی.</p>
+<span class="arrow-link">خواندن راهنما <span aria-hidden="true">←</span></span>
+</a><a class="guide-card" href="#guide-buying" id="guide-buying">
+<span class="guide-meta"><span class="guide-category">راهنمای خرید</span><span>۸ دقیقه مطالعه</span></span>
+<h3>چطور نرم‌افزار حسابداری مناسب آهن‌فروشی را انتخاب کنیم؟</h3>
+<p>راهنمای بی‌طرفانه انتخاب نرم‌افزار حسابداری آهن‌فروشی با پرسش‌های جلسه دمو، محاسبه هزینه کل و معیارهای پشتیبانی، انبار و مالیات.</p>
+<span class="arrow-link">خواندن راهنما <span aria-hidden="true">←</span></span>
+</a><a class="guide-card" href="#guide-units" id="guide-units">
+<span class="guide-meta"><span class="guide-category">فروش و فاکتور</span><span>۶ دقیقه مطالعه</span></span>
+<h3>فروش آهن بر اساس کیلو، تن و شاخه؛ چه چیزی را باید در نرم‌افزار آزمود؟</h3>
+<p>نکته‌های عملی برای کنترل تبدیل واحد در خرید و فروش آهن‌آلات، وزن باسکول، فاکتور، گرد کردن، مغایرت و گزارش موجودی.</p>
+<span class="arrow-link">خواندن راهنما <span aria-hidden="true">←</span></span>
+</a></div>
+</div></section>
+<section aria-labelledby="faq-title" class="section"><div class="narrow">
+<div class="section-head"><div><p class="eyebrow">شفافیت پیش از خرید</p><h2 id="faq-title">پاسخ به پرسش‌های پرتکرار</h2></div></div>
+<div class="faq-list"><details class="faq-item"><summary>آیا یک نرم‌افزار برای همه آهن‌فروشی‌ها بهترین است؟</summary><p>خیر. ترکیب واحدهای خرید و فروش، تعداد انبارها، روش تسویه، کاربرها و نیازهای گزارش‌گیری هر کسب‌وکار متفاوت است. ما رتبه‌بندی یا امتیاز ساختگی منتشر نمی‌کنیم؛ معیارها و شواهد رسمی را کنار هم می‌گذاریم تا انتخاب را با فرایند خودتان بسنجید.</p></details><details class="faq-item"><summary>قیمت‌هایی که در سایت می‌بینم قطعی هستند؟</summary><p>خیر. قیمت‌ها به نسخه، افزونه، تخفیف و زمان بررسی وابسته‌اند. هرجا مبلغ عمومی از صفحه رسمی در دسترس باشد، مرجع و تاریخ بررسی درج شده است؛ قیمت و شرایط نهایی را پیش از پرداخت از عرضه‌کننده تأیید کنید.</p></details><details class="faq-item"><summary>وقتی قابلیتی «اعلام‌نشده» است، یعنی محصول آن را ندارد؟</summary><p>نه. این برچسب یعنی در صفحه عمومی رسمی که در تاریخ درج‌شده بررسی کردیم، جزئیات کافی برای تأیید پیدا نکردیم. باید همان مورد را از فروشنده بپرسید و پاسخ را در دمو یا پیش‌فاکتور بررسی کنید.</p></details><details class="faq-item"><summary>آیا شما نرم‌افزار حسابداری می‌فروشید یا خدمات حسابداری دارید؟</summary><p>خیر. تراز روشن سازنده نرم‌افزار نیست و خدمات حسابداری ارائه نمی‌کند. هدف، توضیح نیازها و مقایسه اطلاعات منتشرشده برای کمک به تصمیم خرید است.</p></details><details class="faq-item"><summary>درخواست مشاوره من واقعاً ارسال می‌شود؟</summary><p>فرم فقط پس از پیکربندی مقصد دریافت کار می‌کند. در این نسخه مقصد فرم ثبت نشده است؛ تا زمانی که مقصد امن تنظیم و آزمایش نشود، سایت اطلاعات واردشده را ارسال یا ذخیره نمی‌کند.</p></details></div>
+</div></section>
+<section aria-labelledby="home-form-title" class="section section-soft"><div class="container consult-layout">
+<div><div class="form-panel form-compact">
+<h2>درخواست راهنمایی برای کسب‌وکار شما</h2>
+<p>برای اینکه راهنمایی کاربردی باشد، نوع کسب‌وکار و نیاز اصلی را کوتاه بنویسید. * فیلدهای ضروری را نشان می‌دهد.</p>
+<div class="notice note-warning" role="note"><span aria-hidden="true" class="notice-icon">!</span><span><strong>مقصد دریافت هنوز تنظیم نشده است.</strong> در این نسخه، فرم هیچ اطلاعاتی ارسال یا ذخیره نمی‌کند. پیش از انتشار عمومی، مقصد امن را پیکربندی و یک ارسال آزمایشی انجام دهید.</span></div>
+<form accept-charset="utf-8" action="" class="lead-form" data-form-endpoint="" id="home-lead-form" method="post" novalidate="">
+<input name="_source_page" type="hidden" value="/"/>
+<div aria-hidden="true" class="hp-wrap"><label for="home-lead-form-website">این فیلد را خالی بگذارید</label><input autocomplete="off" id="home-lead-form-website" name="_gotcha" tabindex="-1" type="text"/></div>
+<div class="form-grid">
+<div class="field"><label for="home-lead-form-business">نام کسب‌وکار <span aria-hidden="true">*</span></label><input autocomplete="organization" id="home-lead-form-business" maxlength="100" name="business_name" required="" type="text"/></div>
+<div class="field"><label for="home-lead-form-contact">نام فرد پاسخ‌گو <span aria-hidden="true">*</span></label><input autocomplete="name" id="home-lead-form-contact" maxlength="80" name="contact_name" required="" type="text"/></div>
+<div class="field"><label for="home-lead-form-method">روش تماس ترجیحی <span aria-hidden="true">*</span></label><select id="home-lead-form-method" name="contact_method" required=""><option value="">انتخاب کنید</option><option value="phone">تماس تلفنی</option><option value="email">رایانامه</option></select></div>
+<div class="field"><label for="home-lead-form-detail"><span data-contact-label="">راه تماس</span> <span aria-hidden="true">*</span></label><input aria-describedby="home-lead-form-contact-help" autocomplete="off" id="home-lead-form-detail" maxlength="120" name="contact_detail" required="" type="text"/><span class="field-help" id="home-lead-form-contact-help">فقط راه تماسی را وارد کنید که برای پیگیری همین درخواست مناسب است.</span></div>
+<div class="field"><label for="home-lead-form-category">حوزه کسب‌وکار <span aria-hidden="true">*</span></label><select id="home-lead-form-category" name="business_category" required=""><option value="">انتخاب کنید</option><option value="iron">آهن‌فروشی و فروش آهن‌آلات</option><option value="wholesale">عمده‌فروشی</option><option value="distribution">پخش و توزیع</option><option value="retail">فروشگاه خرده‌فروشی</option><option value="workshop">کارگاه ساخت یا تولید</option><option value="other">سایر</option></select></div>
+<div class="field"><label for="home-lead-form-users">تعداد کاربران <span class="optional">اختیاری</span></label><input id="home-lead-form-users" inputmode="numeric" max="500" min="1" name="user_count" type="number"/></div>
+<div class="field"><label for="home-lead-form-branches">تعداد شعبه یا انبار <span class="optional">اختیاری</span></label><input id="home-lead-form-branches" inputmode="numeric" max="500" min="1" name="branch_count" type="number"/></div>
+<div class="field field-full"><label for="home-lead-form-needs">نیاز اصلی حسابداری یا انبار شما <span aria-hidden="true">*</span></label><textarea id="home-lead-form-needs" maxlength="1200" minlength="10" name="accounting_requirements" placeholder="برای نمونه: خرید به تن و فروش به شاخه، دو انبار و پیگیری چک‌های دریافتی" required=""></textarea><span class="field-help">اطلاعات شخصی مشتریان، شماره حساب یا تصویر فاکتور را اینجا ننویسید.</span></div>
+<fieldset class="field field-full" style="border:0;padding:0;margin:0"><legend class="field-label">کدام موضوع‌ها برایتان مهم‌تر است؟ <span class="optional">اختیاری؛ چند مورد را می‌توانید انتخاب کنید</span></legend><div class="check-list">
+<label class="check-option"><input name="requirements[]" type="checkbox" value="multiple-units"/>فروش کیلویی، تنی، شاخه‌ای یا تبدیل واحد</label>
+<label class="check-option"><input name="requirements[]" type="checkbox" value="inventory"/>چند انبار و انبارگردانی</label>
+<label class="check-option"><input name="requirements[]" type="checkbox" value="accounts"/>حساب مشتریان، تأمین‌کنندگان و چک</label>
+<label class="check-option"><input name="requirements[]" type="checkbox" value="reports"/>گزارش سود، گردش کالا و مطالبات</label>
+<label class="check-option"><input name="requirements[]" type="checkbox" value="tax"/>صورتحساب و اتصال مالیاتی</label>
+<label class="check-option"><input name="requirements[]" type="checkbox" value="branches"/>چند کاربر، شعبه یا شبکه</label>
+</div></fieldset>
+<div class="field field-full"><label class="consent-row"><input name="privacy_consent" required="" type="checkbox" value="yes"/><span>با استفاده از اطلاعات بالا فقط برای پیگیری این درخواست موافقم و <a href="#privacy">سیاست حریم خصوصی</a> را خوانده‌ام. این رضایت، اجازه پیام‌های تبلیغاتی نامرتبط نیست. <span aria-hidden="true">*</span></span></label></div>
+</div>
+<div class="form-footer"><button class="button button-primary" type="submit">ارسال درخواست</button><span class="small-note">بدون مقصد پیکربندی‌شده، ارسال یا ذخیره‌ای انجام نمی‌شود.</span></div>
+<p aria-atomic="true" aria-live="polite" class="form-status"></p>
+<p class="form-security">برای جلوگیری از هرزنامه از فیلد دام و بررسی سمت مقصد استفاده می‌شود. اطلاعات را فقط در مقصدی وارد کنید که به آن اعتماد دارید.</p>
+</form>
+<noscript><p class="noscript-note">برای اعتبارسنجی و ارسال فرم، جاوااسکریپت لازم است. در این نسخه اطلاعات فرم بدون اتصال مقصد دریافت نمی‌شود.</p></noscript>
+</div></div>
+<aside class="consult-aside"><p class="eyebrow" style="color:#e4c58e">گام بعدی</p><h2 id="home-form-title">پیش از خرید، سناریوی خود را شفاف کنید</h2><p>نام محصول به‌تنهایی تصمیم را روشن نمی‌کند. تعداد انبار، واحد فروش، کاربران، شیوه تسویه و هزینه پشتیبانی را کنار هم بنویسید.</p><ul><li>اطلاعات را با منبع رسمی تطبیق می‌دهیم.</li><li>موارد نامشخص را به‌عنوان نامشخص نگه می‌داریم.</li><li>پیشنهاد نهایی را با دمو و پیش‌فاکتور خودتان ارزیابی کنید.</li></ul><a class="button button-light" href="#disclosure">روش کار و افشای همکاری</a></aside>
+</div></section>
+<section aria-labelledby="about-title" class="section section-soft" id="about"><div class="container narrow">
+<div class="section-head"><div><p class="eyebrow">درباره وب‌سایت</p><h2 id="about-title">درباره تراز روشن</h2></div></div>
+<p>تراز روشن راهنمای انتخاب و مقایسه نرم‌افزارهای حسابداری برای کسب‌وکارهاست؛ با تمرکز فعلی بر آهن‌فروشی و فروش آهن‌آلات. این وب‌سایت سازنده یا فروشنده نرم‌افزار نیست و خدمات حسابداری ارائه نمی‌کند. اطلاعات محصول و قیمت ممکن است تغییر کند؛ پیش از خرید، موارد مهم را از عرضه‌کننده تأیید کنید.</p>
+</div></section>
+<section aria-labelledby="disclosure-title" class="section" id="disclosure"><div class="container narrow">
+<div class="section-head"><div><p class="eyebrow">شفافیت</p><h2 id="disclosure-title">روش کار و افشای همکاری</h2></div></div>
+<p>توضیحات این صفحه برای کمک به بررسی اولیه است، نه تضمین کیفیت یا توصیه قطعی خرید. نام‌ها و نشان‌های تجاری متعلق به صاحبان آن‌ها هستند. هرگونه همکاری، معرفی پولی یا دریافت کمیسیون باید پیش از فعال‌شدن، روشن و صریح در همین بخش اعلام شود. در نسخه فعلی، سایت مقصد فرم دریافت درخواست ندارد و فرم اطلاعاتی ارسال یا ذخیره نمی‌کند.</p>
+</div></section>
+<section aria-labelledby="privacy-title" class="section section-soft" id="privacy"><div class="container narrow">
+<div class="section-head"><div><p class="eyebrow">حریم خصوصی</p><h2 id="privacy-title">سیاست حریم خصوصی</h2></div></div>
+<p>در نسخه فعلی و بدون اتصال مقصد فرم، اطلاعاتی که در فرم وارد می‌کنید به این وب‌سایت ارسال یا در آن ذخیره نمی‌شود. بنابراین فعلاً فرم را برای اطلاعات حساس استفاده نکنید. پیش از فعال‌سازی دریافت درخواست‌ها، باید مقصد امن، هدف جمع‌آوری اطلاعات، مدت نگهداری و راه تماس برای درخواست حذف اطلاعات مشخص شود.</p>
+</div></section>
+<section aria-labelledby="contact-title" class="section" id="contact"><div class="container narrow">
+<div class="section-head"><div><p class="eyebrow">ارتباط</p><h2 id="contact-title">تماس و درخواست راهنمایی</h2></div></div>
+<p>برای شروع، از فرم درخواست راهنمایی در همین صفحه استفاده کنید؛ اما توجه داشته باشید که تا زمان اتصال و آزمایش یک مقصد امن، فرم فعال نیست و چیزی ارسال نمی‌کند.</p>
+<a class="button button-primary" href="#home-lead-form">رفتن به فرم راهنمایی</a>
+</div></section>
+<section class="closing-cta"><div class="container closing-inner"><div><h2>با معیار شروع کنید، نه با شعار</h2><p>سناریوی واقعی خرید، فروش و انبارتان را با گزینه‌های مستند مقایسه کنید.</p></div><div class="closing-actions"><a class="button button-primary" href="#compare-title">شروع مقایسه</a><a class="button button-secondary" href="#industry-title">راهنمای آهن‌فروشی</a></div></div></section></main>
+<footer class="site-footer">
+<div class="container">
+<div class="footer-grid">
+<div>
+<a class="footer-brand" href="#top"><img alt="" height="44" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9InRpdGxlIj4KICA8dGl0bGUgaWQ9InRpdGxlIj7Zhti02KfZhiDYqtix2KfYsiDYsdmI2LTZhjwvdGl0bGU+CiAgPHJlY3QgeD0iMiIgeT0iMiIgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIiByeD0iMTkiIGZpbGw9IiMxNzNiMzYiLz4KICA8cGF0aCBkPSJNMTcgMjJoMzBNMjIgMjJ2MjJtMjAtMjJ2MjJNMTcgNDRoMzAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2Y1ZWVlMSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8cGF0aCBkPSJNMzIgMTR2MzQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2NmOWI1NCIgc3Ryb2tlLXdpZHRoPSIzLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjMyIiBjeT0iMTQiIHI9IjQuMiIgZmlsbD0iI2NmOWI1NCIvPgogIDxwYXRoIGQ9Im0yMCA0OSAxMi02IDEyIDYiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2NmOWI1NCIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==" width="44"/><span><strong>ترازِ روشن</strong><span>راهنمای شفاف انتخاب نرم‌افزار</span></span></a>
+<p class="footer-intro">این وب‌سایت نرم‌افزار حسابداری تولید نمی‌کند و خدمات حسابداری ارائه نمی‌دهد. اطلاعات محصولات با پیوند به منبع رسمی و تاریخ بازبینی منتشر می‌شود.</p>
+</div>
+<div class="footer-col">
+<h2>کاوش و مقایسه</h2>
+<ul>
+<li><a href="#industry-title">حسابداری آهن‌فروشی</a></li>
+<li><a href="#compare-title">مقایسه نرم‌افزارها</a></li>
+<li><a href="#guides-title">راهنماهای خرید</a></li>
+<li><a href="#home-lead-form">درخواست راهنمایی</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h2>شفافیت و ارتباط</h2>
+<ul>
+<li><a href="#about">درباره تراز روشن</a></li>
+<li><a href="#contact">تماس با ما</a></li>
+<li><a href="#disclosure">افشای همکاری و معرفی</a></li>
+<li><a href="#privacy">حریم خصوصی</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<span>© ۲۸ مهر ۱۴۰۵ تراز روشن؛ همه حقوق محفوظ است.</span>
+<p class="footer-disclosure">در حال حاضر برای هیچ‌یک از نرم‌افزارهای معرفی‌شده قرارداد معرفی یا کمیسیون ثبت نشده است. پیوندها مستقیم به صفحه‌های رسمی می‌روند.</p>
+</div>
+</div>
+</footer>
+<script>
+(function () {
+  'use strict';
+
+  const menuButton = document.querySelector('.menu-toggle');
+  const nav = document.querySelector('#primary-navigation');
+  if (menuButton && nav) {
+    const closeMenu = () => {
+      nav.classList.remove('is-open');
+      menuButton.setAttribute('aria-expanded', 'false');
+      menuButton.setAttribute('aria-label', 'بازکردن فهرست راهبری');
+    };
+    menuButton.addEventListener('click', () => {
+      const open = menuButton.getAttribute('aria-expanded') !== 'true';
+      menuButton.setAttribute('aria-expanded', String(open));
+      menuButton.setAttribute('aria-label', open ? 'بستن فهرست راهبری' : 'بازکردن فهرست راهبری');
+      nav.classList.toggle('is-open', open);
+    });
+    nav.addEventListener('click', (event) => {
+      if (event.target.closest('a')) closeMenu();
+    });
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') closeMenu();
+    });
+    document.addEventListener('click', (event) => {
+      if (!nav.contains(event.target) && !menuButton.contains(event.target)) closeMenu();
+    });
+  }
+
+  const digitMap = { '۰': '0', '۱': '1', '۲': '2', '۳': '3', '۴': '4', '۵': '5', '۶': '6', '۷': '7', '۸': '8', '۹': '9', '٠': '0', '١': '1', '٢': '2', '٣': '3', '٤': '4', '٥': '5', '٦': '6', '٧': '7', '٨': '8', '٩': '9' };
+  const toLatinDigits = (value) => String(value || '').replace(/[۰-۹٠-٩]/g, (digit) => digitMap[digit] || digit);
+  const toPersianDigits = (value) => String(value).replace(/[0-9]/g, (digit) => '۰۱۲۳۴۵۶۷۸۹'[Number(digit)]);
+  const isValidIranPhone = (value) => {
+    const compact = toLatinDigits(value).replace(/[\s()\-]/g, '');
+    return /^(?:09\d{9}|9\d{9}|\+989\d{9}|00989\d{9}|0\d{9,11})$/.test(compact);
+  };
+
+  document.querySelectorAll('.lead-form').forEach((form) => {
+    const method = form.querySelector('[name="contact_method"]');
+    const contact = form.querySelector('[name="contact_detail"]');
+    const contactLabel = form.querySelector('[data-contact-label]');
+    const status = form.querySelector('.form-status');
+    const submitButton = form.querySelector('[type="submit"]');
+    const honey = form.querySelector('[name="_gotcha"]');
+    const endpoint = (form.dataset.formEndpoint || '').trim();
+
+    const updateContactField = () => {
+      if (!method || !contact) return;
+      const isEmail = method.value === 'email';
+      const isPhone = method.value === 'phone';
+      contact.type = isEmail ? 'email' : (isPhone ? 'tel' : 'text');
+      contact.autocomplete = isEmail ? 'email' : (isPhone ? 'tel' : 'off');
+      contact.inputMode = isPhone ? 'tel' : (isEmail ? 'email' : 'text');
+      contact.placeholder = isPhone ? 'مثلاً ۰۹۱۲۱۲۳۴۵۶۷' : (isEmail ? 'نشانی رایانامه شما' : 'پس از انتخاب روش تماس');
+      if (contactLabel) contactLabel.textContent = isEmail ? 'نشانی رایانامه' : (isPhone ? 'شماره تماس' : 'راه تماس');
+      contact.setCustomValidity('');
+    };
+    if (method) {
+      method.addEventListener('change', updateContactField);
+      updateContactField();
+    }
+
+    const setStatus = (message, state) => {
+      if (!status) return;
+      status.textContent = message;
+      status.dataset.state = state || '';
+    };
+
+    const validateForm = () => {
+      if (contact && method && method.value === 'phone' && contact.value.trim() && !isValidIranPhone(contact.value)) {
+        contact.setCustomValidity('شماره را با قالب معتبر ایران وارد کنید؛ برای نمونه ۰۹۱۲۱۲۳۴۵۶۷ یا شماره ثابت با پیش‌شماره.');
+      } else if (contact) {
+        contact.setCustomValidity('');
+      }
+      const report = form.reportValidity();
+      if (!report) {
+        setStatus('لطفاً موارد مشخص‌شده را بررسی و تکمیل کنید.', 'error');
+        return false;
+      }
+      return true;
+    };
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      if (!validateForm()) return;
+      if (honey && honey.value.trim()) {
+        setStatus('درخواست ارسال نشد. لطفاً دوباره تلاش کنید.', 'error');
+        return;
+      }
+      if (!endpoint) {
+        setStatus('این فرم هنوز به مقصد دریافت متصل نشده است؛ هیچ‌یک از اطلاعات شما ارسال یا ذخیره نشد. پیش از انتشار، مقصد امن فرم را پیکربندی کنید.', 'error');
+        return;
+      }
+      if (!/^https:\/\//i.test(endpoint)) {
+        setStatus('نشانی مقصد فرم معتبر نیست؛ ارسال انجام نشد و اطلاعات شما حفظ شد.', 'error');
+        return;
+      }
+
+      const oldLabel = submitButton ? submitButton.textContent : '';
+      if (submitButton) {
+        submitButton.disabled = true;
+        submitButton.textContent = 'در حال ارسال…';
+      }
+      setStatus('درخواست در حال ارسال است…', 'info');
+      const payload = new FormData(form);
+      // Keep the empty _gotcha field so the receiving service can apply its honeypot check.
+      if (method && method.value === 'phone' && contact) {
+        payload.set('contact_detail', toLatinDigits(contact.value).replace(/[\s()\-]/g, ''));
+      }
+      payload.set('_subject', 'درخواست مشاوره از تراز روشن');
+
+      try {
+        const response = await fetch(endpoint, {
+          method: 'POST',
+          body: payload,
+          headers: { 'Accept': 'application/json' },
+          mode: 'cors',
+          credentials: 'omit'
+        });
+        if (!response.ok) {
+          throw new Error('پاسخ مقصد فرم با خطا همراه بود.');
+        }
+        setStatus('سرویس دریافت، درخواست شما را پذیرفت؛ این پیام فقط پس از پاسخ موفق سرویس نمایش داده می‌شود.', 'success');
+        form.reset();
+        updateContactField();
+      } catch (error) {
+        console.error('ارسال فرم به مقصد پیکربندی‌شده انجام نشد.', error);
+        setStatus('ارسال انجام نشد. اطلاعات در فرم باقی ماند؛ اتصال مقصد را بررسی و دوباره تلاش کنید.', 'error');
+      } finally {
+        if (submitButton) {
+          submitButton.disabled = false;
+          submitButton.textContent = oldLabel;
+        }
+      }
+    });
+
+    form.addEventListener('input', (event) => {
+      if (event.target.matches('[name="contact_detail"]')) event.target.setCustomValidity('');
+      if (status && status.dataset.state === 'error') setStatus('', '');
+    });
+  });
+
+  const industrySelectValues = {
+    iron: 'iron',
+    wholesale: 'wholesale',
+    distribution: 'distribution',
+    retail: 'retail',
+    workshop: 'workshop',
+    other: 'other'
+  };
+  const requestedIndustry = new URLSearchParams(window.location.search).get('industry');
+  if (requestedIndustry && industrySelectValues[requestedIndustry]) {
+    document.querySelectorAll('[name="business_category"]').forEach((select) => {
+      if ([...select.options].some((option) => option.value === industrySelectValues[requestedIndustry])) {
+        select.value = industrySelectValues[requestedIndustry];
+      }
+    });
+  }
+
+  const compareForm = document.querySelector('#comparison-selectors');
+  const compareStatus = document.querySelector('#comparison-status');
+  if (compareForm) {
+    const toggles = [...compareForm.querySelectorAll('[data-product-toggle]')];
+    const applySelection = (changedToggle) => {
+      let active = toggles.filter((toggle) => toggle.checked);
+      if (active.length === 0 && changedToggle) {
+        changedToggle.checked = true;
+        active = [changedToggle];
+      }
+      const activeSlugs = new Set(active.map((toggle) => toggle.value));
+      document.querySelectorAll('[data-product-column]').forEach((cell) => {
+        cell.hidden = !activeSlugs.has(cell.dataset.productColumn);
+      });
+      if (compareStatus) {
+        compareStatus.textContent = `در حال نمایش ${toPersianDigits(active.length)} نرم‌افزار از ${toPersianDigits(toggles.length)} نرم‌افزار بررسی‌شده.`;
+      }
+    };
+    toggles.forEach((toggle) => toggle.addEventListener('change', () => applySelection(toggle)));
+    applySelection(null);
+  }
+})();
+
+</script>
+</body>
+</html>
